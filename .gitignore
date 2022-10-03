@@ -1,0 +1,9 @@
+node_modules/
+dist/
+lib/
+cjs/
+.local/
+coverage/
+*.log
+yarn-error.log
+test-report.xml
