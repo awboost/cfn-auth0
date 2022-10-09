@@ -33,6 +33,7 @@
     "bundle": "cfnassets build --config assets.config.json",
     "clean": "rm -rf lib/ cjs/ *.tsbuildinfo",
     "compile": "npm run index && tsc",
+    "compile:all": "npm run compile && npm run compile:cjs",
     "compile:cjs": "tsc -p tsconfig.cjs.json",
     "dev:docs": "concurrently --kill-others npm:watch:docs npm:serve:docs",
     "docs": "typedoc",

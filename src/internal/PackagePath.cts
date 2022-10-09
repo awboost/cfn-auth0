@@ -4,4 +4,4 @@ function getPackagePath() {
   return resolve(__dirname, '../../package.json');
 }
 
-export default getPackagePath();
+export const PackagePath = getPackagePath();

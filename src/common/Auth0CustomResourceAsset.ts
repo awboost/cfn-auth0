@@ -1,5 +1,5 @@
 import { PackageAsset } from '@awboost/cfnassets';
-import PackagePath from '../internal/PackagePath.cjs';
+import { PackagePath } from '../internal/PackagePath.cjs';
 
 export class Auth0CustomResourceAsset extends PackageAsset {
   constructor() {
