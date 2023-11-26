@@ -64,9 +64,9 @@
   },
   "dependencies": {
     "@fmtk/decoders": "^0.5.2",
-    "@awboost/cfnassets": "^0.5.6",
-    "@awboost/cfntemplate": "^0.5.2",
-    "@awboost/cfntypes": "^0.44.0",
+    "@awboost/cfnassets": "^0.6.0",
+    "@awboost/cfntemplate": "^0.6.0",
+    "@awboost/cfntypes": "^0.100.9",
     "auth0": "^2.41.0",
     "lodash.clonedeep": "^4.5.0"
   },
